@@ -11,15 +11,15 @@
       return false;
     }
     var key = e.key;
-    if (key === "h") {
+    if (key === "c") {
       e.preventDefault();
       e.stopPropagation();
       window.location.href = "/";
-    } else if (key === "t") {
+    } else if (key === "s") {
       e.preventDefault();
       e.stopPropagation();
-      window.location.href = `https://${location.hostname}/tags`;
-    } else if (key === "i") {
+      window.location.href = `https://${location.hostname}/sobre`;
+    } else if (key === "b") {
       e.preventDefault();
       e.stopPropagation();
       const inputs = document.querySelectorAll("input");

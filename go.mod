@@ -1,3 +1,3 @@
-module github.com/barklan/hugo-dead-simple
+module github.com/alexandre-mbm/hugo-dead-simple
 
 go 1.18
